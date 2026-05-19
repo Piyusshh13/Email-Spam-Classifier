@@ -1,0 +1,24 @@
+# --- Python Junk ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# --- IDE Settings (Keeps your personal VS Code views private) ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Operating System Garbage ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
