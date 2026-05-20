@@ -10,7 +10,7 @@ function analyzeEmail() {
 
         console.log("Analyzing Email Text...");
 
-        fetch("http://127.0.0.1:8000/predict", {
+        fetch("https://email-spam-classifier-caa0.onrender.com/predict", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

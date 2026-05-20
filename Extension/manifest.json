@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Spam Email Detector",
-  "version": "1.1",
+  "name": "Spam Email Detector Pro",
+  "description": "An AI-powered email classification extension utilizing real-time ML confidence metrics.",
+  "version": "1.2",
   "permissions": [
     "activeTab"
   ],
   "host_permissions": [
-    "http://127.0.0.1:8000/*",
-    "http://localhost:8000/*"
+    "https://email-spam-classifier-caa0.onrender.com/*"
   ],
   "content_scripts": [
     {
